@@ -5,7 +5,7 @@ shopt -s nullglob
 # CLI variables
 cli_name=${0##*/}
 cli_command=$1
-cli_version="v0.1.0"
+cli_version="v0.1.1"
 cli_dependencies=terraform,kubectl
 
 # Check CLI dependencies
@@ -20,7 +20,7 @@ cli_log() {
 }
 
 cli_help() {
-  echo "$cli_name $cli_version
+  echo "$cli_name
 https://github.com/brotandgames/kubernete.sh
 
 Usage: $cli_name [command]
@@ -80,7 +80,7 @@ resource rke_cluster "cluster" {
 
 resource "local_file" "kube_cluster_yaml" {
   filename = "\${path.root}/kube_config_cluster.yml"
-  content  = "\${rke_cluster.cluster.kube_config_yaml}"
+  sensitive_content  = "\${rke_cluster.cluster.kube_config_yaml}"
 }
 EOF
 

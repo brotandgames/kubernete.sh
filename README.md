@@ -1,12 +1,17 @@
 # kubernete.sh
 
-Deploy "throw-away" Kubernetes Cluster(s)
+Deploy "throw-away" Kubernetes Cluster(s) using a small Bash CLI.
+
+[Home](https://kubernete.sh) |
+[Installation](https://kubernete.sh/install/) |
+[Usage](https://kubernete.sh/usage/)
+
 
 ## tl;dr
 
 ````
 $ kubernete.sh 
-kubernete.sh v0.1.0
+kubernete.sh
 https://github.com/brotandgames/kubernete.sh
 
 Usage: kubernete.sh [command]
