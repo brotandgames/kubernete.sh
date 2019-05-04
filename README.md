@@ -6,6 +6,8 @@ Deploy "throw-away" Kubernetes Cluster(s) using a small Bash CLI.
 [Installation](https://kubernete.sh/install/) |
 [Usage](https://kubernete.sh/usage/)
 
+![kubernete.sh Example](https://kubernete.sh/assets/kubernete.sh.svg "kubernete.sh")
+
 
 ## tl;dr
 
