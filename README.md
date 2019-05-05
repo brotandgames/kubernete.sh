@@ -3,6 +3,7 @@
 Deploy "throw-away" Kubernetes Cluster(s) using a small Bash CLI.
 
 [Home](https://kubernete.sh) |
+[About](https://kubernete.sh/about/) |
 [Installation](https://kubernete.sh/install/) |
 [Usage](https://kubernete.sh/usage/)
 
@@ -35,7 +36,7 @@ Command:
   kubernete.sh deploy
 
 Usage: 
-  kubernete.sh deploy node1[,node2,nodeN] [ssh_private_key_path]
+  kubernete.sh deploy user@node1[,user@node2,user@nodeN] [ssh_private_key_path]
 
 Examples:
   kubernete.sh deploy root@n1.kubernete.sh

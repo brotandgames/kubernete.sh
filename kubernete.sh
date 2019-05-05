@@ -5,7 +5,7 @@ shopt -s nullglob
 # CLI variables
 cli_name=${0##*/}
 cli_command=$1
-cli_version="v0.1.1"
+cli_version="v0.1.2"
 cli_dependencies=terraform,kubectl
 
 # Check CLI dependencies
@@ -41,7 +41,7 @@ cli_help_deploy() {
   $cli_name deploy
 
 Usage: 
-  $cli_name deploy node1[,node2,nodeN] [ssh_private_key_path]
+  $cli_name deploy user@node1[,user@node2,user@nodeN] [ssh_private_key_path]
 
 Examples:
   $cli_name deploy root@n1.kubernete.sh
